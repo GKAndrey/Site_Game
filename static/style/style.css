@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('/static/fonts/gameFont.otf') format('truetype');
+}
+*{
+    image-rendering: pixelated;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(to top, #69685d, #d7d7d7);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
+.txt{
+    font-family:'MyFont';
+    color: rgba(0, 0, 0, 0.817);
+}
+.inpt{
+    position: absolute;
+    font-size: 5vw;
+    background-color: #69685d00;
+    left: 26.5%;
+    width: 72.5%;
+}
+.inpt1{
+    position: absolute;
+    font-size: 5vw;
+    background-color: #69685d00;
+    left: 25%;
+    width: 50%;
+}
+.label{
+    position: absolute;
+    font-size: 5vw;
+    background-color: #69685d00;
+    right: 75%;
+}
+#l1{
+    top: 30%;
+}
+#l2{
+    top: 50%;
+}
+#l3{
+    top: 70%;
+}
+#l4{
+    top: 40%;
+}
+#l5{
+    top: 34%;
+}
+.pad1{
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+.zaglav{
+    position: absolute;
+    font-size: 8vw;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.zaglav2{
+    position: absolute;
+    font-size: 8vw;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.zaglav1{
+    position: absolute;
+    font-size: 8vw;
+    margin: 0;
+    top: 0%;
+    left: 33vw;
+}
+.zaglav3{
+    position: absolute;
+    font-size: 6vw;
+    top: 10vw;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.btnAssept{
+    position: absolute;
+    font-size: 6vw;
+    background-color: #69685d00;
+    bottom: 5px;
+    right: 5px;
+}
+.startbtn{
+    top: 50%;
+    margin-top: -0.625em;
+    left: 50%;
+    margin-left: -2em;
+    position: fixed;
+    font-family:'MyFont';
+    color: rgb(43, 41, 41);
+    background-color: #69685d00;
+    font-size: 8vw;
+}
+.BTN1{
+    position: absolute;
+    font-family:'MyFont';
+    color: rgba(0, 0, 0, 0.817);
+    font-size: 8vw;
+    height: 20%;
+    top: 40%;
+    width: 30%;
+    left: 1%;
+}
+.BTN2{
+    position: absolute;
+    font-family:'MyFont';
+    color: rgba(0, 0, 0, 0.817);
+    font-size: 8vw;
+    height: 20%;
+    top: 40%;
+    width: 30%;
+    left: 33%;
+}
+.BTN3{
+    position: absolute;
+    font-family:'MyFont';
+    color: rgba(0, 0, 0, 0.817);
+    font-size: 8vw;
+    height: 20%;
+    top: 40%;
+    width: 34%;
+    left: 65%;
+}
+a[href^="login.html"]{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 3vw;
+}
+a[href*="registr.html"]{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 3vw;
+}
+a[href*="/index.html"]{
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-size: 3vw;
+}
