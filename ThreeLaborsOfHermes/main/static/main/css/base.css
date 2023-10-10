@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('/static/fonts/gameFont.otf') format('truetype');
+}
+*{
+    image-rendering: pixelated;
+    font-family:'MyFont';
+    color: rgba(0, 0, 0, 0.817);
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+body{
+    background: linear-gradient(to top, #69685d, #d7d7d7);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+}
